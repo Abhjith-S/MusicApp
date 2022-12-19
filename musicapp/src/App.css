@@ -1,0 +1,63 @@
+* {
+  background-color: #282c34;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; */
+}
+.DiscoverContainer{
+  color: white;
+  text-align: center;
+  width: 100%;
+  object-fit: contain;
+}
+.DiscoverTitle{
+  font-size: x-large;
+}
+.DiscoverSrch{
+  color: white;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid white;
+}
+.DiscoverButton{
+  cursor: pointer;
+  background-color: #3f3e7c;
+  color:rgb(196 202 245);
+  margin-left: 20px;
+  border: none;
+  height: 30px;
+  width: 40px;
+  border-radius: 5px;
+}
+.SongContianer{
+  margin: 27px; 
+  width: 200px;
+  height: 180px;
+  text-align: center;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.SongContianer:hover{
+  transition: 123ms ease-in-out;
+  transform: scale(1.1);
+  
+}
+.SongText{
+  color:#bfb4b4;
+}
+.SongImage{
+  width: 114px;
+  object-fit: contain;
+  border-radius: 12px;
+}
+.AllSongs{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
